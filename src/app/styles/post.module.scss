@@ -1,0 +1,71 @@
+.post {
+
+    input,
+    textarea {
+        border: 1px solid black !important;
+        outline: none !important;
+        width: 100%;
+        padding: 8px;
+        margin: 4px;
+        text-transform: capitalize;
+
+        &::placeholder {
+            color: black;
+            text-transform: capitalize;
+        }
+    }
+
+
+    button {
+        cursor: pointer;
+        border: 1px solid black;
+        margin: 4px;
+        text-transform: capitalize;
+        background-color: black;
+        color: white;
+        padding: 6px 16px;
+        transition: all .2s;
+
+        &:hover {
+            background-color: transparent;
+            color: black;
+        }
+    }
+}
+
+.addComment {
+    width: 400px !important;
+    display: flex;
+    gap: 4px;
+
+    input {
+        border: 1px solid black !important;
+        outline: none !important;
+        width: 75%;
+        padding: 8px;
+        text-transform: capitalize;
+
+        &::placeholder {
+            color: black;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.Container {
+    width: 600px !important;
+    margin: auto;
+}
+
+.responseBtn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 6px 16px;
+    transition: all .2s;
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+}
